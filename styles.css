@@ -1,0 +1,155 @@
+.background {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tablet {
+    display: flex;
+    height: 750px;
+    width: 450px;
+    outline: 5px black solid;
+    margin-top: 200px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.screen {
+    height: 120px;
+    background-color: rgb(192, 185, 255);
+    width: 400px;
+    position: absolute;
+    margin-top: 25px;
+    align-items: right;
+}
+
+.display {
+    position: absolute;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    width: 390px;
+}
+
+.sums {
+    position: absolute;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: right;
+    width: 390px;
+}
+
+.row-zero {
+    height: 110px;
+    width: 110px;
+    margin: 190px 1px 1px 1px;
+}
+
+.row-zero-plus {
+    height: 110px;
+    width: 220px;
+    margin: 190px 1px 1px 1px;
+    background-color: rgb(8, 65, 119);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.row-one {
+    height: 110px;
+    width: 110px;
+    margin: 1px;
+    background-color: rgb(27, 102, 199);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.x {
+    background-color: rgb(8, 65, 119);
+}
+
+.row-two {
+    height: 110px;
+    width: 110px;
+    margin: 1px;
+    background-color: rgb(27, 102, 199);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.subtract {
+    background-color: rgb(8, 65, 119);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.row-three {
+    height: 110px;
+    width: 110px;
+    margin: 1px;
+    background-color: rgb(27, 102, 199);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.row-three-plus {
+    height: 220px;
+    width: 110px;
+    margin: 1px;
+    background-color: rgb(8, 65, 119);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.row-four {
+    height: 110px;
+    width: 110px;
+    margin: 1px;
+    background-color: rgb(27, 102, 199);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+.vertical-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 0px;
+}
+
+.complex-rows {
+    display: flex;
+}
+
+.short-row {
+    display: flex;
+}
+
+.erase {
+    background-color: rgb(255, 60, 60);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+
+.del {
+    background-color: rgb(255, 60, 60);
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
